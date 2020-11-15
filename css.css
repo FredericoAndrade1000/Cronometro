@@ -1,0 +1,39 @@
+body{
+	background-color: rgba(202,202,202,1.00);
+}
+.confirm{
+	font-family: Arial;
+	border-style: none;
+	color: black;
+	cursor: pointer;
+	font-size: 26px;
+}
+.text{
+	font-size: 26px;
+	font-family: Arial;
+	border-style: none;
+	color: black;
+}
+.relogio{
+	padding: 20px;
+	background-color: rgba(165,165,165,1.00);
+	width: 300px;
+}
+
+.segunder60::before{
+	content: "seg/60: ";
+}
+.segundos::before{
+	content: "segundos: ";
+}
+.minutos::before{
+	content: "minutos: ";
+}
+.button{
+	background-color: rgba(247,165,32,1.00);
+	margin-right: 8px;
+}
+
+.button:hover{
+	background-color: rgba(216,145,29,1.00);
+}
